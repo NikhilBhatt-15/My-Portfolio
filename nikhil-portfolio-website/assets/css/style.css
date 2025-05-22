@@ -994,15 +994,37 @@ main {
   opacity: 0;
   z-index: 1;
   transition: var(--transition-1);
+  display: flex;
+  gap: 16px;
+  z-index: 2;
 }
 
-.project-item>a:hover .project-item-icon-box {
+.project-item:hover .project-item-icon-box {
   --scale: 1;
   opacity: 1;
 }
 
-.project-item-icon-box ion-icon {
-  --ionicon-stroke-width: 50px;
+.project-item-icon-box a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(248, 205, 205, 0);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  color: var(--orange-yellow-crayola);
+  font-size: 22px;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--orange-yellow-crayola);
+
+}
+
+.project-item-icon-box a:hover {
+  background: var(--orange-yellow-crayola);
+  color: #222;
+  transform: scale(1.12);
+  border-color: #fff;
 }
 
 .project-img img {
@@ -1012,7 +1034,7 @@ main {
   transition: var(--transition-1);
 }
 
-.project-item>a:hover img {
+.project-item>:hover img {
   transform: scale(1.1);
 }
 
