@@ -1,6 +1,6 @@
 ## 👨‍💻 About Me
 
-Creative problem-solver who turns complex ideas into elegant code. Currently pursuing Bachelor's in Computer Applications (BCA) with a 9.5 GPA while gaining real-world fintech experience as a Backend Developer Intern at CipherSquare Technologies.
+They say I write code so clean, even my bugs are well-documented! 🐛✨
 
 **🎯 Specializations:**
 
